@@ -14,5 +14,12 @@ class TestFizzBuzz(unittest.TestCase):
         ]
         self.assertEqual(fizz_buzz(1,50), assert_value)
 
+    def test_fizz_buzz_other_values(self):
+        assert_value = [
+            1, 2, 'fizz', 4, 'buzz', 'fizz', 7, 8, 'fizz', 'buzz', 11, 'fizz', 
+            13, 14, 'fizzbuzz', 16
+        ]
+        self.assertEqual(fizz_buzz(1,16), assert_value)
+
 if __name__ == '__main__':
     unittest.main()
