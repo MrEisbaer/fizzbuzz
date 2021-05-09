@@ -1,4 +1,15 @@
+#!/usr/bin/env python3
+
 def fizz_buzz(start_number = 1, end_number = 50):
+    """
+        fizz_buzz is a function to solve the game fizz_buzz
+        Parameters
+        ----------
+        start_number : int, optional
+            the number to start in fizz_buzz (default is 1)
+        end_number : int, optional
+            the number to end in fizz_buzz (default is 50)
+    """
     fizz_buzz_list = []
     for number in range(start_number, end_number + 1):
         fizz_buzz_value = ""
